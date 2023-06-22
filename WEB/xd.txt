@@ -1,4 +1,4 @@
-git init 
-git add .
-git commit -m "mesaje"
-git push origin main
+git init   // iniciar el repositorio en GitHub
+git add .  // añadir nuevos elementos
+git commit -m "mesaje" // El "mensaje" es un mesaje que se añade a la version guardada 
+git push origin main // 
