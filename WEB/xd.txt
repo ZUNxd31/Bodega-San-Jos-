@@ -1,3 +1,4 @@
+Primero que nada : ctrl + ñ (control mas "ñ" para abrir la terminal)
 git init   // iniciar el repositorio en GitHub
 git add .  // añadir nuevos elementos
 git commit -m "mesaje" // El "mensaje" es un mesaje que se añade a la version guardada 
