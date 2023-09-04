@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactenos</title>
+    <link rel="stylesheet" href="/CSS/secContactenos.css">
+    <link rel="shortcut icon" href="/Imagenes/favicon.png">
 </head>
 <body>
     
+    
+<!--Barra de navegación-->
+<header>
+    <nav class="navbar">
+    <div>
+      <a href="/Index.html" class="navbar-logo">
+        <img src="/Imagenes/logo_negocio.svg">
+      </a>
+    </div>
+
+    <label for="input-hamburger" class="hamburger "></label>
+    <input type="checkbox" id="input-hamburger" hidden>
+    <ul class="menu">
+      <li><a href="/WEB/seccosmeticosyjoyeria.html" class="menu-link">Cosmeticos y Joyeria</a></li>
+      <li><a href="/WEB/secpresentes.html" class="menu-link">Presentes</a></li>
+      <li><a href="/WEB/seclimpieza.html" class="menu-link">Productos de Limpieza</a></li>
+      <li><a href="/WEB/secprendasdevestir.html" class="menu-link">Prendas de Vestir</a></li>
+
+      <!--Drop-down-->
+      <li class="has-dropdown">
+        <a class="menu-link">Abarrotes
+          <span class="arrow"></span>
+        </a>
+
+        <ul class="submenu">
+          <li><a href="/WEB/subsecproductosenlatados.html" class="menu-link">Productos enlatados</a></li>
+          <li><a href="/WEB/subseclacteos.html" class="menu-link">Lacteos</a></li>
+          <li><a href="/WEB/subsecconfiteria.html" class="menu-link">Confiteria</a></li>
+          <li><a href="/WEB/subseccerealesyderivados.html" class="menu-link">Cereales y derivados</a></li>
+          <li><a href="/WEB/subsecfrutasyverduras.html" class="menu-link">Frutas y verduras</a></li>
+          <li><a href="/WEB/subsecbebidas.html" class="menu-link">Bebidas</a></li>
+          <li><a href="/WEB/subseccarnesyembutidos.html" class="menu-link">Carnes y embutidos</a></li>
+        </ul>
+      </li>
+      <!--FIN drop-down-->
+
+      <li><a href="/WEB/seccontactenos.html" class="menu-link">Contáctenos</a></li>
+
+    </ul>
+  </nav>
+</header>
+<!--FIN -- Barra de navegación-->
+
+
+<div class="contactenos">
+  
+  <div class="column-1">
+    <div class="img"></div>
+    <a href="mailto:visitar.bodega.sanjose@gmail.com" target="_blank">
+       <span class="gmail">visitar.bodega.sanjose@gmail.com </span>
+     </a>
+  </div>
+  <div class="column-2">
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1954.534276965741!2d-75.9294189!3d-11.5469401!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDMyJzQ5LjYiUyA3NcKwNTUnNDMuOCJX!5e0!3m2!1ses!2spe!4v1693491292827!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
