@@ -258,15 +258,19 @@ header {
 }
 /*FIN - Barra de navegación*/
 
+.colum-1{
+  display: flex;
+  justify-content: center;
+}
+
 .contactenos{
     width: 100%;
     display: grid;
-    padding: 2rem 3rem;
+    padding: auto;
     margin-top: 2.5rem;
     grid-template-columns: repeat(2, 1fr);  
     justify-content: center;
     align-items: center;
-    color: var(--light);  
 }
 
 .img{
@@ -276,22 +280,93 @@ header {
   justify-content: center;
   border-radius: 5px;
   background: linear-gradient(rgba(44, 32, 112, 0.26), rgba(0, 0, 0, 0.11)), url('./img1.svg') no-repeat center / cover;  
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: 2rem 3rem 1rem;
-  border-radius: 5px;  
+  margin: auto;
+}
+
+.gmail{
+  text-decoration: none;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.gmail .mail{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  color: var(--dark);
+}
+
+/*Iconos*/
+.container{
+  display: flex;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container .item{
+  font-size: 2rem;
+}
+/*Fin Iconos*/
+
+.column-2{
+  padding-bottom: 3rem;
 }
 
 .map{
-    border-radius: 0.5rem;
     max-width: 30rem;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.404);
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: 2rem 3rem 1rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;  
     border-radius: 5px;  
+}
+
+@media only screen and (max-width: 1020px) {
+  .map{
+    max-width: 26rem;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  
+  .contactenos{
+    grid-template-columns: repeat(1, 1fr);  
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .img{
+    max-width: 18rem;
+    height: 8rem;  
+  }
+  .map{
+    max-width: 18rem;
+  }
+}
+
+.pie{
+  background-color: var(--dark);
+  padding: 15px 10px;
+  color: var(--light);
+  position:absolute;
+  bottom:0px; 
+  width:100%;  
+  text-align:center;
+}
+
+.pie small{
+  font-size: 0.8rem; 
+}
+
+@media only screen and (max-width: 1020px) {
+  .pie{
+    position: relative;
+  }
 }
