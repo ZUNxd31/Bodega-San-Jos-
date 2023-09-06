@@ -120,15 +120,11 @@ header {
   padding: 0.8em 1.5em;
 }
 
-.submenu .submenu {
-  left: -100%;
-  top: 0;
-}
-
 .menu > li:hover > a,
 .submenu > li:hover > a {
   background-color: hsla(0, 0%, 100%, 0.05);
   color: var(--shadow);
+  transition: ease-out 0.2s;
 }
 
 .menu > li:hover > a {

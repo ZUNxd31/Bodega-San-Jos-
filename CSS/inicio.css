@@ -121,15 +121,11 @@ header {
   padding: 0.8em 1.5em;
 }
 
-.submenu .submenu {
-  left: -100%;
-  top: 0;
-}
-
 .menu > li:hover > a,
 .submenu > li:hover > a {
   background-color: hsla(0, 0%, 100%, 0.05);
   color: var(--shadow);
+  transition: ease-out 0.2s;
 }
 
 .menu > li:hover > a {
@@ -193,7 +189,6 @@ header {
     transform-origin: top center;
     transition: 200ms transform cubic-bezier(0.36, 0.4, 0.42, 1.48) 100ms,
       100ms opacity ease-in-out;
-    
     overflow-y: scroll;
     
   }
@@ -301,7 +296,7 @@ header {
   
   /*Button inicio*/
   .button {
-    padding: 1em 2em;
+    padding: 0.7em 1.7em;
     border: none;
     border-radius: 5px;
     font-weight: bold;
