@@ -310,12 +310,14 @@ header {
   position: relative;
   overflow: hidden;
   outline: 2px solid var(--pink);
+  cursor: pointer;
 }
 
 button:hover {
   color: var(--light);
   transform: scale(1.05);
   outline: 2px solid var(--pink);
+  cursor: pointer;
 }
 
 button::before {
@@ -329,6 +331,7 @@ button::before {
   transform: skewX(45deg);
   z-index: -1;
   transition: ease-in-out 0.5s;
+  cursor: pointer;
 }
 
 button:hover::before {
@@ -535,7 +538,6 @@ button:hover::before {
   background-color: var(--dark);
   outline: 2px solid var(--dark);
   border-radius: 5px;
-
 }
 
 .container_img1 {
@@ -596,7 +598,7 @@ button:hover::before {
 .items {
   padding-left: 20px;
   padding-right: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .head {
@@ -605,13 +607,13 @@ button:hover::before {
   transform: translateY(40px);
   transition: all 0.7s;
 }
+
 .head hr {
   display: block;
   width: 0;
   border: none;
   border-bottom: solid 2px var(--light);
   position: absolute;
-  left: 20px;
   transition: all 0.5s;
   padding-bottom: 20px;
 }
@@ -629,6 +631,7 @@ button:hover::before {
   line-height: 100%; /*Permite que el espacio entre texto se adapte para que no se sobrepongan unos a otros*/
   color: var(--light);
   font-weight: normal;
+  line-height: 2rem;
   padding-bottom: 20px;
   text-align: left;
   transition: 0.5s;
@@ -642,20 +645,6 @@ button:hover::before {
   color: var(--light);
 }
 
-.cart {
-  font-size: 12px;
-  opacity: 0;
-  letter-spacing: 1px;
-  text-align: left;
-  transform: translateY(40px);
-  transition: all 0.7s;
-}
-.cart i {
-  font-size: 16px;
-}
-.cart span {
-  margin-left: 10px;
-}
 
 .container:hover .overlay {
   opacity: 1;
@@ -672,11 +661,6 @@ button:hover::before {
   transition-delay: 0.3s;
   opacity: 1;
 }
-.container:hover .overlay .cart {
-  transform: translateY(0px);
-  transition-delay: 0.3s;
-  opacity: 1;
-}
 
 /*Incio de la sección de clase galeria, esto permite que los elemtnos dentor de la galwria se adapten para el responsive*/
 .Galeria {
@@ -686,5 +670,4 @@ button:hover::before {
   justify-content: center;
   align-self: center;
 }
-
 /*Galeria end*/
