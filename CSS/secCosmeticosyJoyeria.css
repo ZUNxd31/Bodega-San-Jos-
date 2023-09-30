@@ -268,7 +268,7 @@ header {
 #hero{
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./img1.svg') no-repeat center / cover;
+  background: linear-gradient(rgba(18, 13, 46, 0.404), rgba(0, 0, 0, 0.39)), url('../Imagenes/Productos_cosméticos_y_Joyería/cosmeticos-y-joyeria_portada.webp') no-repeat center / cover;
   color: var(--light);
 }
 
@@ -287,10 +287,7 @@ header {
   font-size: 2.5rem;
   margin-bottom: 1rem; 
 }
-.container1 .text h2{
-  font-size: 1.5rem;
-  margin-bottom: 1.7rem;
-}
+
 .container1 .text p{
   font-size: 1.2rem;
   max-width: 60%; /*Se adecua al 60% de los 1000px delimitados anteiormente :3 */
@@ -410,7 +407,7 @@ button:hover::before {
   width: 100%;
   height: 150px;
   border-radius: 5px;
-  background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./img1.svg') no-repeat center / cover  
+  background: linear-gradient(rgba(44, 32, 112, 0.295), rgba(0, 0, 0, 0.082)), url('../Imagenes/Productos_cosméticos_y_Joyería/collar-manzana_oferta.webp') no-repeat center / cover  
 }
 
 .image2 {
@@ -418,7 +415,7 @@ button:hover::before {
   width: 100%;
   height: 150px;
   border-radius: 5px;
-  background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./logologologoAA.svg') no-repeat center / cover  
+  background: linear-gradient(rgba(44, 32, 112, 0.295), rgba(0, 0, 0, 0.082)), url('../Imagenes/Productos_cosméticos_y_Joyería/pulsera-corazon_oferta.webp') no-repeat center / cover  
 }
 
 .image3 {
@@ -426,7 +423,7 @@ button:hover::before {
   width: 100%;
   height: 150px;
   border-radius: 5px;
-  background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./sun.jpg') no-repeat center / cover  
+  background: linear-gradient(rgba(44, 32, 112, 0.295), rgba(0, 0, 0, 0.082)), url('../Imagenes/Productos_cosméticos_y_Joyería/labiales_oferta.webp') no-repeat center / cover  
 }
 
 
@@ -542,42 +539,35 @@ button:hover::before {
 }
 
 .container_img1 {
-  background: url("/Imagenes/img1.svg");
+  background: url("../Imagenes/Productos_cosméticos_y_Joyería/jabon-neko.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%
 }
 
 .container_img2 {
-  background: url("#");
+  background: url("../Imagenes/Productos_cosméticos_y_Joyería/perfume-expessions.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%
 }
 
 .container_img3 {
-  background: url("#");
+  background: url("../Imagenes/Productos_cosméticos_y_Joyería/shampoo-baby-johnsons.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%
 }
 
 .container_img4 {
-  background: url("#");
+  background: url("../Imagenes/Productos_cosméticos_y_Joyería/shampoo-savital.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%
 }
 
 .container_img5 {
-  background: url("#");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%
-}
-
-.container_img6 {
-  background: url("#");
+  background: url("../Imagenes/Productos_cosméticos_y_Joyería/toallas-humedas.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%

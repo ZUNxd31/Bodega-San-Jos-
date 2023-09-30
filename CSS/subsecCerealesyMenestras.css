@@ -266,7 +266,7 @@ header {
 #hero{
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./img1.svg') no-repeat center / cover;
+  background: linear-gradient(rgba(10, 7, 26, 0.582), rgba(0, 0, 0, 0.596)), url('../Imagenes/Cereales_y_menestras/cereales-y-derivados_portada.webp') no-repeat center / cover;
   color: var(--light);
 }
 
@@ -285,10 +285,7 @@ header {
   font-size: 2.5rem;
   margin-bottom: 1rem; 
 }
-.container1 .text h2{
-  font-size: 1.5rem;
-  margin-bottom: 1.7rem;
-}
+
 .container1 .text p{
   font-size: 1.2rem;
   max-width: 60%; /*Se adecua al 60% de los 1000px delimitados anteiormente :3 */
@@ -329,8 +326,8 @@ button::before {
   background-color: var(--pink);
   transform: skewX(45deg);
   z-index: -1;
-  cursor: pointer;
   transition: ease-in-out 0.5s;
+  cursor: pointer;
 }
 
 button:hover::before {
@@ -424,7 +421,7 @@ button:hover::before {
     width: 100%;
     height: 150px;
     border-radius: 5px;
-    background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./img1.svg') no-repeat center / cover  
+    background: linear-gradient(rgba(44, 32, 112, 0.082), rgba(0, 0, 0, 0.041)), url('../Imagenes/Cereales_y_menestras/arroz-faraon_ofertas.webp') no-repeat center / cover  
   }
   
   .image2 {
@@ -432,17 +429,8 @@ button:hover::before {
     width: 100%;
     height: 150px;
     border-radius: 5px;
-    background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./logologologoAA.svg') no-repeat center / cover  
-  }
-  
-  .image3 {
-    object-fit: cover;
-    width: 100%;
-    height: 150px;
-    border-radius: 5px;
-    background: linear-gradient(rgba(44, 32, 112, 0.411), rgba(0, 0, 0, 0.452)), url('./sun.jpg') no-repeat center / cover  
-  }
-  
+    background: linear-gradient(rgba(44, 32, 112, 0.068), rgba(0, 0, 0, 0.041)), url('../Imagenes/Cereales_y_menestras/spaguetti_ofertas.webp') no-repeat center / cover  
+  }  
   
   .title {
     color: var(--dark);
@@ -527,42 +515,21 @@ button:hover::before {
 }
 
 .container_img1 {
-  background: url("/Imagenes/img1.svg");
+  background: url("../Imagenes/Cereales_y_menestras/frijol-canario.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%
 }
 
 .container_img2 {
-  background: url("#");
+  background: url("../Imagenes/Cereales_y_menestras/lentejas.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%
 }
 
 .container_img3 {
-  background: url("#");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%
-}
-
-.container_img4 {
-  background: url("#");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%
-}
-
-.container_img5 {
-  background: url("#");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%
-}
-
-.container_img6 {
-  background: url("#");
+  background: url("../Imagenes/Cereales_y_menestras/trigo-shambar.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%
@@ -655,4 +622,5 @@ button:hover::before {
   align-items: center;
   justify-content: center;
   align-self: center;
-}  /*Galeria end*/
+}
+/*Galeria end*/

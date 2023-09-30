@@ -6,53 +6,53 @@
     <meta name="keywords" content="productos, comprar, bodega, tienda online, San José">
     <meta name="description" content="¡Consulta por una gran variedad de productos para el hogar y mucho más! Aquí en a bodega San José podrás encontrar toda clase de productos, desde consmeticos, prendas de vestir, productos para el aseo, legumbres, frutas y verduras y muchos más 😻">
     <title>Contactenos</title>
-    <link rel="stylesheet" href="/CSS/secContactenos.css">
+    <link rel="stylesheet" href="../CSS/secContactenos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="shortcut icon" href="/Imagenes/favicon.png">
+    <link rel="shortcut icon" href="../Imagenes/favicon.png">
 </head>
 <body>
     
 <!--Barra de navegación-->
 <header>
-    <nav class="navbar">
-    <div>
-      <a href="/Index.html" class="navbar-logo">
-        <img src="/Imagenes/logo_negocio.svg">
+  <nav class="navbar">
+  <div>
+    <a href="../Index.html" class="navbar-logo">
+      <img src="../Imagenes/logo_negocio.svg">
+    </a>
+  </div>
+
+  <label for="input-hamburger" class="hamburger "></label>
+  <input type="checkbox" id="input-hamburger" hidden>
+  <ul class="menu">
+    <li><a href="./seccosmeticosyjoyeria.html" class="menu-link">Cosmeticos y Joyeria</a></li>
+    <li><a href="./secpresentes.html" class="menu-link">Presentes</a></li>
+    <li><a href="./seclimpieza.html" class="menu-link">Productos de Limpieza</a></li>
+    <li><a href="./secprendasdevestir.html" class="menu-link">Prendas de Vestir</a></li>
+
+    <!--Drop-down-->
+    <li class="has-dropdown">
+      <a class="menu-link">Abarrotes
+        <span class="arrow"></span>
       </a>
-    </div>
 
-    <label for="input-hamburger" class="hamburger "></label>
-    <input type="checkbox" id="input-hamburger" hidden>
-    <ul class="menu">
-      <li><a href="/WEB/seccosmeticosyjoyeria.html" class="menu-link">Cosmeticos y Joyeria</a></li>
-      <li><a href="/WEB/secpresentes.html" class="menu-link">Presentes</a></li>
-      <li><a href="/WEB/seclimpieza.html" class="menu-link">Productos de Limpieza</a></li>
-      <li><a href="/WEB/secprendasdevestir.html" class="menu-link">Prendas de Vestir</a></li>
+      <ul class="submenu">
+        <li><a href="./subsecconfiteria.html" class="menu-link">Confiteria</a></li>
+        <li><a href="./subseccerealesymenestras.html" class="menu-link">Cereales y menestras</a></li>
+        <li><a href="./subsecfrutasyverduras.html" class="menu-link">Frutas y verduras</a></li>
+        <li><a href="./subsecbebidas.html" class="menu-link">Bebidas</a></li>
+        <li><a href="./subseccarnesyembutidos.html" class="menu-link">Carnes y embutidos</a></li>
+      </ul>
+    </li>
+    <!--FIN drop-down-->
 
-      <!--Drop-down-->
-      <li class="has-dropdown">
-        <a class="menu-link">Abarrotes
-          <span class="arrow"></span>
-        </a>
+    <li><a href="./seccontactenos.html" class="menu-link">Contáctenos</a></li>
 
-        <ul class="submenu">
-          <li><a href="/WEB/subsecconfiteria.html" class="menu-link">Confiteria</a></li>
-          <li><a href="/WEB/subseccerealesyderivados.html" class="menu-link">Cereales y derivados</a></li>
-          <li><a href="/WEB/subsecfrutasyverduras.html" class="menu-link">Frutas y verduras</a></li>
-          <li><a href="/WEB/subsecbebidas.html" class="menu-link">Bebidas</a></li>
-          <li><a href="/WEB/subseccarnesyembutidos.html" class="menu-link">Carnes y embutidos</a></li>
-        </ul>
-      </li>
-      <!--FIN drop-down-->
-
-      <li><a href="/WEB/seccontactenos.html" class="menu-link">Contáctenos</a></li>
-
-    </ul>
-  </nav>
+  </ul>
+</nav>
 </header>
 <!--FIN -- Barra de navegación-->
 
-<!--Fotograf+ia y mapa-->
+<!--Fotografia y mapa-->
 <div class="contactenos">
 
   <div class="column-1">
@@ -62,17 +62,17 @@
      </a>
 
      <div class="container">
-      <a href="#" class="item">
-        <i class="fa-brands fa-square-facebook" style="color: #15141A;"></i>
+      <a href="https://www.facebook.com/profile.php?id=61551223244695" class="item" target="_blank">
+        <i class="fa-brands fa-square-facebook" id="svg_socials"></i>
       </a>
-      <a href="#" class="item">
-        <i class="fa-brands fa-square-whatsapp" style="color: #15141A;"></i>
+      <a href="https://wa.link/adv1jq" class="item" target="_blank">
+        <i class="fa-brands fa-square-whatsapp" id="svg_socials"></i>
       </a>
-      <a href="#" class="item">
-        <i class="fa-brands fa-square-twitter" style="color: #15141A;"></i>
+      <a href="https://twitter.com/SanJose_bodega" class="item" target="_blank">
+        <i class="fa-brands fa-square-twitter" id="svg_socials"></i>
       </a>
-      <a href="#" class="item">
-        <i class="fa-brands fa-square-instagram" style="color: #15141A;"></i>
+      <a href="https://www.instagram.com/san_jose_bodega/" class="item" target="_blank">
+        <i class="fa-brands fa-square-instagram" id="svg_socials"></i>
       </a>
     </div>
   </div>
@@ -83,7 +83,7 @@
     </div>
   </div>
 </div>
-<!--FIN Fotograf+ia y mapa-->
+<!--FIN Fotografia y mapa-->
 
 <!--Autoria-->
 <div class="pie"> <!--Grupo-2-->

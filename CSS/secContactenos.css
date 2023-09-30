@@ -269,13 +269,17 @@ header {
     align-items: center;
 }
 
+#svg_socials {
+  color: var(--dark);
+}
+
 .img{
   max-width: 25rem;
   height: 15rem;
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  background: linear-gradient(rgba(44, 32, 112, 0.26), rgba(0, 0, 0, 0.11)), url('./img1.svg') no-repeat center / cover;  
+  background: linear-gradient(rgba(28, 20, 73, 0.308), rgba(0, 0, 0, 0.11)), url('../Imagenes/Contactenos/img_contactenos.webp') no-repeat center / cover;  
   margin: auto;
 }
 
